@@ -47,11 +47,6 @@ a:hover {
   line-height: 38px;
   letter-spacing: 0;
 }
-label {
-  font-weight: bold;
-  padding-bottom: 10px;
-  display: inline-block;
-}
 input[type='email'],
 input[type='password'],
 button[type='submit'] {
