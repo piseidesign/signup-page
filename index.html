@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Forms and Inputs</title>
+  <meta description="descriptions" content="SEO and accessibility friendly HTML form.">
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+  <body>
+    <main>
+      <p class="text-center"><img src="images/logo.png" alt="Logo" , class="logo" /></p>
+      <section class="panel">
+        <legend class="text-center">Sign up</legend>
+        <form class="" action="/signup/" method="post">
+
+          <label for="user-email">Email</label>
+          <input type="email" name="user-email" value="" placeholder="foo@bar.com" id="user-email" required />
+
+          <label for="user-password">Password</label>
+          <input type="password" name="user-password" value="" placeholder="1234passwOrd" id="user-password" required />
+
+          <button type="submit">Sign up</button>
+
+          <p class="text-center"><a href="/forgot-password/new"  class="text-muted">Forgot passord?</a></p>
+
+        </form>
+      </section>
+
+        <p class="text-center text-white">
+          <b>Already have an account? <a href="/login" class="text-white">Log in</a></b>
+        </p>
+
+    </main>
+  </body>
+</html>
